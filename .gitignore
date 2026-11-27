@@ -1,0 +1,34 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# ── Secrets / local env ───────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Generated backend data (recreated automatically on startup) ───────────────
+backend/chroma_db/
+backend/ecommerce.db
+
+# ── DeepEval local artifacts ──────────────────────────────────────────────────
+.deepeval/
+
+# ── Tests ─────────────────────────────────────────────────────────────────────
+.pytest_cache/
+
+# ── Node / Next.js ────────────────────────────────────────────────────────────
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+npm-debug.log*
+
+# ── OS / editor junk ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
